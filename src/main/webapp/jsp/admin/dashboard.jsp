@@ -26,14 +26,14 @@ if (admin == null) {
 body {
     display: flex;
     min-height: 100vh;
-    background-color: #f5f5f5;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
     color: #222;
 }
 
 /* SIDEBAR */
 .sidebar {
     width: 260px;
-    background-color: #2f7c5e; /* Emerald primary */
+    background-color: #1f6f8c; /* Updated to match home page */
     color: white;
     display: flex;
     flex-direction: column;
@@ -59,16 +59,16 @@ body {
 }
 
 .sidebar a:hover {
-    background-color: #215d45; /* Darker emerald on hover */
+    background-color: #21455d; /* Darker emerald on hover */
     transform: translateX(3px);
 }
 
 .sidebar a.active {
-    background-color: #215d45;
+    background-color: #214a5d;
 }
 
 .sidebar .logout-btn {
-    background-color: #dc3545; /* Error red */
+    background-color: #35dc51; /* Error red */
     text-align: center;
     font-weight: bold;
     font-size: 16px;
@@ -78,7 +78,7 @@ body {
 }
 
 .sidebar .logout-btn:hover {
-    background-color: #b02a37;
+    background-color: #2ab035;
 }
 
 /* MAIN CONTENT */
@@ -102,14 +102,14 @@ body {
 
 .header h1 {
     font-size: 32px;
-    color: #2f7c5e;
+    color: #2f6d7c;
     font-weight: bold;
 }
 
 /* WELCOME TEXT */
 .welcome {
     font-size: 28px;
-    color: #2f7c5e;
+    color: #2f6d7c;
     font-weight: bold;
     margin-bottom: 25px;
 }
@@ -144,7 +144,7 @@ body {
 .stat-card .number {
     font-size: 28px;
     font-weight: bold;
-    color: #2f7c5e;
+    color: #2f667c;
 }
 
 /* TABLE CONTAINER */
@@ -159,7 +159,7 @@ body {
 .table-container h2 {
     font-size: 22px;
     margin-bottom: 10px;
-    color: #2f7c5e;
+    color: #2f5d7c;
 }
 
 .table-container p {
@@ -175,7 +175,7 @@ table {
 }
 
 thead {
-    background-color: #2f7c5e;
+    background-color: #2f707c;
     color: white;
 }
 

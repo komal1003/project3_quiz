@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+ page gin<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page isELIgnored="false"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +19,7 @@
 /* BACKGROUND */
 body, html {
     height: 100%;
-    background: linear-gradient(135deg, #ffffff, #f5f5f5);
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,12 +44,12 @@ header {
 header .logo {
     font-size: 26px;
     font-weight: bold;
-    color: #2f7c5e;
+    color: #2f6a7c;
 }
 
 header .nav-links a.back-btn {
     padding: 6px 14px;
-    background: #2f7c5e;
+    background: #1f6f8c;
     color: white;
     border-radius: 20px;
     font-weight: 600;
@@ -59,7 +59,7 @@ header .nav-links a.back-btn {
 }
 
 header .nav-links a.back-btn:hover {
-    background: #215d45;
+    background: #185c6c;
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
@@ -67,7 +67,7 @@ header .nav-links a.back-btn:hover {
 /* LOGIN BOX */
 .login-box {
     width: 420px;
-    background: #ffffff;
+    background: #e3f2fd;
     padding: 40px 35px;
     border-radius: 16px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
@@ -85,7 +85,7 @@ header .nav-links a.back-btn:hover {
 /* Heading */
 .login-box h2 {
     font-size: 30px;
-    color: #2f7c5e;
+    color: #2f647c;
     font-weight: bold;
     margin-bottom: 8px;
 }
@@ -118,7 +118,7 @@ input:focus {
 button {
     width: 100%;
     padding: 14px;
-    background: #2f7c5e;
+    background: #2f647c;
     border: none;
     border-radius: 30px;
     color: #fff;
@@ -130,7 +130,7 @@ button {
 }
 
 button:hover {
-    background: #215d45;
+    background: #21545d;
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 6px 14px rgba(0,0,0,0.2);
 }

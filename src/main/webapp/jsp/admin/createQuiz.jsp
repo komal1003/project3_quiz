@@ -30,14 +30,14 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-color: #f5f5f5; /* neutral background */
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
     color: #222;
 }
 
 /* SIDEBAR */
 .sidebar {
     width: 260px;
-    background-color: #2f7c5e; /* Emerald primary */
+    background-color: #1f6f8c; /* Updated to match home page */
     color: white;
     display: flex;
     flex-direction: column;
@@ -62,8 +62,8 @@ body {
     transition: 0.25s;
 }
 
-.sidebar a:hover { background-color: #215d45; }
-.sidebar a.active { background-color: #215d45; }
+.sidebar a:hover { background-color: #214a5d; }
+.sidebar a.active { background-color: #214a5d; }
 
 .sidebar .logout-btn {
     background-color: #28a745; /* Emerald logout */
@@ -94,7 +94,7 @@ body {
 .header h1,
 .welcome {
     font-size: 30px;
-    color: #2f7c5e; /* Emerald headers */
+    color: #2f537c; /* Emerald headers */
     font-weight: bold;
 }
 
@@ -124,7 +124,7 @@ input[type=text], select {
     transition: 0.25s;
 }
 
-input:focus, select:focus { border-color: #2f7c5e; outline: none; }
+input:focus, select:focus { border-color: #2f647c; outline: none; }
 
 /* QUESTION LIST */
 .question-list {
@@ -150,7 +150,7 @@ input:focus, select:focus { border-color: #2f7c5e; outline: none; }
 .btn {
     width: 100%;
     padding: 16px;
-    background-color: #2f7c5e; /* Emerald button */
+    background-color: #1f6f8c;
     border: none;
     border-radius: 8px;
     color: white;
@@ -160,7 +160,7 @@ input:focus, select:focus { border-color: #2f7c5e; outline: none; }
     transition: 0.25s;
 }
 
-.btn:hover { background-color: #215d45; }
+.btn:hover { background-color: #185c6c; }
 
 /* ALERTS */
 .success, .error {

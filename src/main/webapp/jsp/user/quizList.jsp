@@ -23,7 +23,7 @@
 /* ---------- BODY ---------- */
 body {
     font-family: 'Inter', Arial, sans-serif;
-    background: #f7f8f7;  /* Light neutral background */
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
     color: #2b2b2b;
     padding-bottom: 40px;
 }
@@ -117,7 +117,7 @@ h1 {
 
 /* Start Button */
 .btn-start {
-    background: #1f6f5c;  /* Emerald */
+    background: #1f6f8c;
     color: white;
     padding: 12px 28px;
     border-radius: 25px;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .btn-start:hover {
-    background: #185c4c;
+    background: #185c6c;
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 6px 14px rgba(31,111,92,0.25);
 }

@@ -17,7 +17,7 @@
 /* ---------- BODY ---------- */
 body {
     font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(135deg, #f7f8f7, #eef1ee);
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
     color: #2b2b2b;
     min-height: 100vh;
     display: flex;
@@ -38,7 +38,7 @@ header {
 header .logo {
     font-size: 26px;
     font-weight: 700;
-    color: #1f6f5c;
+    color: #1f6f8c;
     letter-spacing: 0.4px;
 }
 
@@ -49,7 +49,7 @@ header .nav-links {
 }
 
 header .nav-links a {
-    color: #355f54;
+    color: #355f74;
     text-decoration: none;
     margin-left: 26px;
     font-weight: 600;
@@ -57,13 +57,13 @@ header .nav-links a {
 }
 
 header .nav-links a:hover {
-    color: #1f6f5c;
+    color: #1f6f8c;
 }
 
 /* ---------- ADMIN BUTTON ---------- */
 .admin-btn {
     padding: 7px 18px;
-    background: #1f6f5c;
+    background: #1f6f8c;
     color: #ffffff !important;
     border-radius: 22px;
     font-size: 14px;
@@ -71,7 +71,7 @@ header .nav-links a:hover {
 }
 
 .admin-btn:hover {
-    background: #185c4c;
+    background: #185c6c;
 }
 
 /* ---------- DROPDOWN ---------- */
@@ -83,9 +83,9 @@ header .nav-links a:hover {
 /* Dropdown Button */
 .dropbtn {
     padding: 7px 18px;
-    background: #e6f0ec;
-    color: #1f6f5c;
-    border: 1px solid #cfe2da;
+    background: #e6f0fc;
+    color: #1f6f8c;
+    border: 1px solid #cfe2fa;
     border-radius: 22px;
     font-weight: 600;
     cursor: pointer;
@@ -93,7 +93,7 @@ header .nav-links a:hover {
 }
 
 .dropbtn:hover {
-    background: #d8ebe4;
+    background: #d8ebf4;
 }
 
 /* Dropdown Content */
@@ -112,7 +112,7 @@ header .nav-links a:hover {
 }
 
 .dropdown-content a {
-    color: #355f54;
+    color: #355f74;
     padding: 12px 20px;
     display: block;
     font-weight: 500;
@@ -120,7 +120,7 @@ header .nav-links a:hover {
 }
 
 .dropdown-content a:hover {
-    background: #f1f6f4;
+    background: #f1f6fc;
     padding-left: 26px;
 }
 
@@ -133,25 +133,47 @@ header .nav-links a:hover {
 .container {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
     padding: 80px 24px;
+    flex-wrap: wrap;
 }
 
-.container h1 {
+/* ---------- WELCOME SECTION ---------- */
+.welcome-section {
+    flex: 1;
+    text-align: center;
+    max-width: 50%;
+}
+
+.welcome-section h1 {
     font-size: 44px;
     margin-bottom: 18px;
-    color: #1f3f36;
+    color: #1f3f56;
     font-weight: 700;
 }
 
-.container p {
+.welcome-section p {
     font-size: 17px;
-    max-width: 720px;
     line-height: 1.7;
-    color: #555f5b;
+    color: #555f7b;
+}
+
+/* ---------- AD BANNER ---------- */
+.ad-banner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+
+.ad-banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 </style>
 
@@ -164,7 +186,7 @@ header .nav-links a:hover {
     <div class="logo">ONLINE QUIZ</div>
 
     <div class="nav-links">
-
+    
         <!-- Admin Login (Highlighted Button) -->
         <a href="${pageContext.request.contextPath}/jsp/admin/login.jsp" class="admin-btn">Admin Login</a>
 
@@ -182,8 +204,16 @@ header .nav-links a:hover {
 </header>
 
 <div class="container">
-    <h1>Welcome to Online Quiz Portal</h1>
-    <p>Test your knowledge with our interactive quizzes and challenge yourself every day!</p>
+    <!-- Welcome Section -->
+    <div class="welcome-section">
+        <h1>Welcome</h1>
+        <p>Challenge your mind with our interactive quizzes and test your knowledge daily!</p>
+    </div>
+
+    <!-- Ad Banner -->
+    <div class="ad-banner">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.2xElATslkAVO2yMfyx1YjQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Quiz">
+    </div>
 </div>
 
 </body>

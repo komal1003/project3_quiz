@@ -18,12 +18,12 @@
    <style>
 /* Reset & base */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-body { display: flex; min-height: 100vh; background: #f5f5f5; color: #222; }
+body { display: flex; min-height: 100vh; background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #222; }
 
 /* Sidebar */
 .sidebar {
     width: 260px;
-    background-color: #2f7c5e; /* Emerald primary */
+    background-color: #1f6f8c; /* Updated to match home page */
     color: white;
     display: flex;
     flex-direction: column;
@@ -45,11 +45,11 @@ body { display: flex; min-height: 100vh; background: #f5f5f5; color: #222; }
     font-size: 16px;
     transition: 0.25s;
 }
-.menu-item:hover { 
-    background-color: #215d45; /* darker emerald hover */
+.menu-item:hover {
+    background-color: #185c6c; /* darker blue hover */
     transform: translateX(3px);
 }
-.menu-item.active { background-color: #215d45; }
+.menu-item.active { background-color: #185c6c; }
 
 /* Main content */
 .main-content {
@@ -64,7 +64,7 @@ body { display: flex; min-height: 100vh; background: #f5f5f5; color: #222; }
 .quiz-header h2 {
     font-size: 30px;
     font-weight: bold;
-    color: #2f7c5e; /* Emerald heading */
+    color: #2f5d7c; /* Emerald heading */
     margin-bottom: 20px;
 }
 
@@ -88,7 +88,7 @@ thead th {
     padding: 12px 18px;
     text-align: left;
     font-weight: bold;
-    color: #2f7c5e; /* emerald header text */
+    color: #2f607c; /* emerald header text */
     border-radius: 8px 8px 0 0;
 }
 
@@ -103,7 +103,7 @@ tbody td {
 
 tbody td:first-child { 
     font-weight: bold; 
-    color: #2f7c5e; 
+    color: #2f6d7c; 
     width: 50px; 
 }
 

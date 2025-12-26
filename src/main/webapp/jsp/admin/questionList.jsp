@@ -17,12 +17,12 @@
 <style>
 /* Reset & base */
 * { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
-body { display:flex; min-height:100vh; background-color:#f5f5f5; color:#222; }
+body { display:flex; min-height:100vh; background: linear-gradient(135deg, #e3f2fd, #bbdefb); color:#222; }
 
 /* Sidebar */
 .sidebar {
     width:260px;
-    background-color:#2f7c5e; /* Emerald primary */
+    background-color:#1f6f8c; /* Updated to match home page */
     color:white;
     display:flex;
     flex-direction:column;
@@ -35,8 +35,8 @@ body { display:flex; min-height:100vh; background-color:#f5f5f5; color:#222; }
     padding:12px 18px; margin-bottom:12px; border-radius:6px; font-size:16px; 
     transition:0.25s;
 }
-.sidebar a:hover { background-color:#215d45; transform: translateX(3px); }
-.sidebar a.active { background-color:#215d45; }
+.sidebar a:hover { background-color:#185c6c; transform: translateX(3px); }
+.sidebar a.active { background-color:#185c6c; }
 .sidebar .logout-btn { 
     background-color:#28a745; /* Emerald logout button */ 
     text-align:center; font-weight:bold; font-size:16px; padding:12px; 
@@ -47,7 +47,7 @@ body { display:flex; min-height:100vh; background-color:#f5f5f5; color:#222; }
 /* Main content */
 .main-content { flex:1; padding:40px; background-color:#fff; border-radius:12px; overflow-x:auto; }
 .header { display:flex; justify-content:space-between; align-items:center; margin-bottom:30px; }
-.header h1 { font-size:30px; color:#2f7c5e; } /* Emerald heading */
+.header h1 { font-size:30px; color:#1f6f8c; } /* Updated to match home page */
 
 /* Table styling */
 table {
@@ -59,8 +59,8 @@ table {
 thead th {
     text-align:left;
     padding:12px 20px;
-    background:#e6f2ec; /* light emerald/neutral header */
-    color:#2f7c5e;
+    background:#e6f0fc; /* light blue/neutral header */
+    color:#1f6f8c;
     font-weight:700;
     border-radius:8px 8px 0 0;
 }
@@ -68,12 +68,12 @@ tbody td {
     padding:14px 20px;
     vertical-align:middle;
     color:#333;
-    background:#f1f9f5; /* neutral row background */
+    background:#f0f4f2; /* neutral row background */
     border-radius:6px;
     transition:0.2s;
 }
 tbody tr:hover td {
-    background-color:#d6ede1; /* subtle hover highlight */
+    background-color:#d8ebf4; /* subtle hover highlight */
 }
 
 /* Action buttons */

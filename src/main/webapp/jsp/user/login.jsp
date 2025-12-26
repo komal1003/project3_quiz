@@ -18,7 +18,7 @@
 /* Background */
 body, html {
     height: 100%;
-    background: linear-gradient(135deg, #f7f8f7, #eef1ee);
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
 }
 
 /* Header */
@@ -41,7 +41,7 @@ header .logo {
 /* Back Button */
 header .nav-links a.back-btn {
     padding: 7px 18px;
-    background: #1f6f5c;
+    background: #1f6f8c;
     color: #ffffff;
     border-radius: 22px;
     font-weight: 600;
@@ -50,7 +50,7 @@ header .nav-links a.back-btn {
 }
 
 header .nav-links a.back-btn:hover {
-    background: #185c4c;
+    background: #185c6c;
 }
 
 /* Login Container */
@@ -115,7 +115,7 @@ button {
     padding: 14px;
     font-size: 18px;
     font-weight: 700;
-    background: #1f6f5c;
+    background: #1f6f8c;
     color: #ffffff;
     border: none;
     border-radius: 30px;
@@ -124,7 +124,7 @@ button {
 }
 
 button:hover {
-    background: #185c4c;
+    background: #185c6c;
 }
 
 /* Success/Error */

@@ -25,14 +25,14 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-color: #f5f5f5; /* neutral background */
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
     color: #222;
 }
 
 /* Sidebar */
 .sidebar {
     width: 260px;
-    background-color: #2f7c5e; /* Emerald primary */
+    background-color: #1f6f8c; /* Updated to match home page */
     color: white;
     display: flex;
     flex-direction: column;
@@ -54,8 +54,8 @@ body {
     font-size: 16px;
     transition: 0.25s;
 }
-.sidebar a:hover { background-color: #215d45; }
-.sidebar a.active { background-color: #215d45; }
+.sidebar a:hover { background-color: #214f5d; }
+.sidebar a.active { background-color: #21425d; }
 .sidebar .logout-btn {
     background-color: #28a745; /* Emerald logout */
     text-align: center;
@@ -78,7 +78,7 @@ body {
 h2 {
     font-size: 28px;
     font-weight: bold;
-    color: #2f7c5e; /* Emerald header */
+    color: #2f707c; /* Emerald header */
     margin-bottom: 30px;
 }
 
@@ -89,7 +89,7 @@ h2 {
     margin-bottom:24px;
     font-weight:bold;
 }
-.success { background:#d4edda; color:#155724; }
+.success { background:#d4edda; color:#154257; }
 .error { background:#f8d7da; color:#721c24; }
 
 /* Form container */
@@ -120,14 +120,14 @@ textarea { resize:vertical; min-height:80px; font-family:inherit; }
     padding:14px;
     font-size:18px;
     font-weight:bold;
-    background:#2f7c5e; /* Emerald button */
+    background:#1f6f8c; /* Updated to match home page */
     color:#fff;
     border:none;
     border-radius:8px;
     cursor:pointer;
     transition: 0.25s;
 }
-.btn:hover { background:#215d45; }
+.btn:hover { background:#185c6c; }
 
 /* Responsive */
 @media(max-width:768px){

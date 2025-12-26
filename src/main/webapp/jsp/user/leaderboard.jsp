@@ -113,7 +113,7 @@ tbody tr:hover {
     display: inline-block;
     margin-top: 30px;
     padding: 12px 28px;
-    background: #1f6f5c; /* emerald */
+    background: #1f6f8c;
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -122,7 +122,7 @@ tbody tr:hover {
 }
 
 .btn-back:hover {
-    background: #185c4c;
+    background: #185c6c;
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 6px 14px rgba(31,111,92,0.2);
 }

@@ -27,14 +27,14 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-color: #f5f5f5;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
     color: #222;
 }
 
 /* Sidebar */
 .sidebar {
     width: 260px;
-    background-color: #2f7c5e; /* Emerald primary */
+    background-color: #1f6f8c; /* Updated to match home page */
     color: white;
     display: flex;
     flex-direction: column;
@@ -60,16 +60,16 @@ body {
 }
 
 .sidebar a:hover {
-    background-color: #215d45; /* Darker emerald on hover */
+    background-color: #21515d; /* Darker emerald on hover */
     transform: translateX(3px);
 }
 
 .sidebar a.active {
-    background-color: #215d45;
+    background-color: #21455d;
 }
 
 .sidebar .logout-btn {
-    background-color: #dc3545; /* Error red */
+    background-color: #35dc4b; /* Error red */
     text-align: center;
     font-weight: bold;
     font-size: 16px;
@@ -79,7 +79,7 @@ body {
 }
 
 .sidebar .logout-btn:hover {
-    background-color: #b02a37;
+    background-color: #2ab03c;
 }
 
 /* Main content */
@@ -101,12 +101,12 @@ body {
 
 .header h1 {
     font-size: 30px;
-    color: #2f7c5e;
+    color: #1f6f8c;
 }
 
 /* Edit form */
 .edit-form {
-    background: #e6f2ec; /* light emerald/neutral */
+    background: #e6f0fc; /* light blue/neutral */
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 30px;
@@ -117,7 +117,7 @@ body {
     padding: 10px;
     margin-right: 20px;
     border-radius: 6px;
-    border: 1px solid #b6d6c7; /* subtle emerald border */
+    border: 1px solid #cfe2fa; /* subtle blue border */
     font-size: 16px;
 }
 
@@ -125,7 +125,7 @@ body {
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
-    background-color: #2f7c5e;
+    background-color: #1f6f8c;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
@@ -133,7 +133,7 @@ body {
 }
 
 .edit-form button:hover {
-    background-color: #215d45;
+    background-color: #185c6c;
 }
 
 /* Table styling */
@@ -147,7 +147,7 @@ table {
 thead th {
     text-align: left;
     padding: 12px 20px;
-    background: #2f7c5e;
+    background: #2f6d7c;
     color: white;
     font-weight: 700;
     border-radius: 8px 8px 0 0;
@@ -182,19 +182,19 @@ tbody td {
 }
 
 .btn-edit {
-    background-color: #2f7c5e;
+    background-color: #1f6f8c;
     color: #fff;
 }
 .btn-edit:hover {
-    background-color: #215d45;
+    background-color: #185c6c;
 }
 
 .btn-view {
-    background-color: #71bfa1;
+    background-color: #4fc3f7;
     color: #fff;
 }
 .btn-view:hover {
-    background-color: #57a382;
+    background-color: #29b6f6;
 }
 
 .btn-delete {

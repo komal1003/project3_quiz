@@ -17,7 +17,7 @@
 /* Background */
 body, html {
     height: 100%;
-    background: linear-gradient(135deg, #f7f8f7, #eef1ee);
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
 }
 
 /* Header */
@@ -118,7 +118,7 @@ button {
     padding: 14px;
     font-size: 18px;
     font-weight: 700;
-    background-color: #1f6f5c;
+    background-color: #1f6f8c;
     color: #fff;
     border: none;
     border-radius: 30px;
@@ -127,7 +127,7 @@ button {
     box-shadow: 0 6px 14px rgba(31,111,92,0.2);
 }
 button:hover {
-    background-color: #185c4c;
+    background-color: #185c6c;
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 8px 18px rgba(31,111,92,0.25);
 }
